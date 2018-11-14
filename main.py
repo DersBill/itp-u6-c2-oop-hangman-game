@@ -8,7 +8,6 @@ except NameError:
 from hangman.game import HangmanGame
 from hangman.exceptions import *
 
-
 def build_list_of_words(words):
     if words:
         return [w.strip() for w in words.split(',')]
